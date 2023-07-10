@@ -49,6 +49,8 @@
 }
 .featured-text{
     text-align: center;
+    justify-content: center;
+    
     
 }
 .service-container{
@@ -147,10 +149,14 @@ footer{
     margin-bottom: 25px;
     padding: 18px 35px ;
 }
-.name{
+.name-2{
     width: 500px;
     height: 10px;
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+featured-head{
+    display: flex;
+    justify-content: center;
 }
