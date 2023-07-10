@@ -1,0 +1,15 @@
+.heading{
+    background-color: lightpink;  
+    height: 80vh;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    align-items: center;
+    background-image: url("../flower-shop-assignment/pink.png");
+
+
+}
+.heading-text{
+    
+}
