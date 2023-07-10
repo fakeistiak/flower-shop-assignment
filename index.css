@@ -1,15 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
 .heading{
     background-color: lightpink;  
     height: 80vh;
-    flex-shrink: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content:;
     border: 2px solid gray;
     align-items: center;
-    background-image: url("../flower-shop-assignment/pink.png");
-
-
+    
+    flex-shrink: 0;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    display: flex;   
+   
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.heading-image{
+    height: 500px;
+    display: flex;
+    position: relative;
+    padding: 200px;
 }
 .heading-text{
-    
+   padding: 120px;
+   flex-direction: column;
 }
+.btn{
+    padding: 10px 20px;
+    background: #E55473;
+    color: white;
+    border: none;
+    border-radius:0px;
+}
+   
+
