@@ -127,3 +127,30 @@
     height: 260px;
     margin: -50px;
 }
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px ;
+    margin-top: 100px;
+    justify-content: center;
+    background-image: url("kulu.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 150PX;
+}
+
+
+.contact input{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px ;
+}
+.name{
+    width: 500px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
