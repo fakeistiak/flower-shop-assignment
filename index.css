@@ -134,13 +134,13 @@ footer{
     display: flex;
     gap: 100px;
     background: #FFF8F3;
-    padding: 130px 200px ;
+    padding: 100px 0px ;
     margin-top: 100px;
     justify-content: center;
     background-image: url("kulu.png");
     background-repeat: no-repeat;
-    /* height: 700px;
-    margin: 150PX; */
+     height: 200px; 
+    margin: 150PX; 
     
 }
 
@@ -194,4 +194,32 @@ featured-head{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+}
+.text-color{
+    color: lightcoral;
+}
+.last-section{
+   
+    height: 40vh;
+    background: black;
+    margin-top: 100px;
+    justify-content: center;  
+   
+}
+.text-rong{
+    color: white;
+}
+.last-heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.last-para{
+    color: white;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 505px;
+    margin-top: 20px;
 }
