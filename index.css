@@ -6,16 +6,16 @@
     background-color: lightpink;  
     height: 80vh;
     display: flex;
-    justify-content:;
+    justify-content:center
     border: 2px solid gray;
     align-items: center;
     
     flex-shrink: 0;
 }
 .heading-title{
-    font-size: 55px;
+   font-size: 55px;
     font-weight: bold;
-    display: flex;   
+    display: flex;
    
 }
 .description{
@@ -104,7 +104,7 @@
     background-color: lightyellow;  
     height: 50vh;
     display: flex;
-    justify-content:;
+    justify-content:
     border: 2px solid gray;
     align-items: center;
  }
@@ -139,8 +139,9 @@ footer{
     justify-content: center;
     background-image: url("kulu.png");
     background-repeat: no-repeat;
-    height: 400px;
-    margin: 150PX;
+    /* height: 700px;
+    margin: 150PX; */
+    
 }
 
 
@@ -159,4 +160,38 @@ footer{
 featured-head{
     display: flex;
     justify-content: center;
+}
+.footer-desc{
+    display: flex;
+    line-height: normal;
+    font-weight: 400px;
+
+   
+}
+.featured-text-2{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.featured-title-2{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.footer-last{
+    margin-bottom: 100px;
+    position: relative;
+    align-items: center;
+}
+.featured-para-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
